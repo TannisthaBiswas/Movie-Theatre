@@ -14,12 +14,13 @@
 
 :root{
     --primary-color:#ff158a;
+    --new-color:linear-gradient(-30deg, #33ccff, #81d5ff,#ffccff, #81d5ff);
     --secondary-color: rgb(70, 70, 70);
     --light-color:#777;
 }
 
 body{
-    background-color: var(--primary-color);
+    background-color: var(--new-color);
     font-family: 'Nunito', sans-serif;
     margin: 0;
 }
